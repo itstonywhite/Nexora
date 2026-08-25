@@ -1,9 +1,11 @@
 import "./Body.css";
 
 function Body() {
-  const autonomousImgSrc = "../../public/images/Autonomous.png";
-  const roboticArmImgSrc = "../../public/images/arm-transparent.png";
-  const roboticArmBoxImgSrc = "../../public/images/robotic-arm-box.png";
+  const autonomousImgSrc = "${import.meta.env.BASE_URL}images/Autonomous.png";
+  const roboticArmImgSrc =
+    "${import.meta.env.BASE_URL}images/arm-transparent.png";
+  const roboticArmBoxImgSrc =
+    "${import.meta.env.BASE_URL}images/robotic-arm-box.png";
 
   return (
     <>
