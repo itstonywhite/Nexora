@@ -1,0 +1,34 @@
+:root {
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter.ttf") format("ttf");
+}
+
+body {
+  background-color: #f3eeea;
+  font-family: "Inter";
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  background-color: #fff;
+}
