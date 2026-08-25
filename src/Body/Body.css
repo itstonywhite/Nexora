@@ -43,13 +43,14 @@
   width: 270px;
   height: 260px;
   border-radius: 35px;
-  background-color: #fff;
+  background-color: #fafafa;
   position: absolute;
   left: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 0px 3px 0px #0000001a;
 }
 
 .list-item {
@@ -77,4 +78,44 @@
 
 .list-item p {
   color: rgba(0, 0, 0, 0.695);
+}
+
+.floating-box-container {
+  position: relative;
+}
+
+.floating-box {
+  position: absolute;
+  right: 350px;
+  top: 150px;
+  width: 265px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  box-shadow: 0px 0px 3px 0px #0000001a;
+  border-radius: 35px;
+  padding: 30px;
+}
+
+.floating-box img:not(:last-child) {
+  width: 40px;
+  height: 40px;
+}
+
+.floating-box b {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.floating-box p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.695);
+}
+
+.second-arm {
+  max-width: 550px !important;
+  position: absolute;
+  right: -300px;
+  top: -370px;
 }

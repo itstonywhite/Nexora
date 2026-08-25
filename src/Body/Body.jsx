@@ -56,6 +56,18 @@ function Body() {
               </div>
             </div>
           </div>
+          <div className="floating-box-container">
+            <div className="floating-box">
+              <img src="../../public/images/favicon.png" alt="Nexora" />
+              <b>Intelligent Robotics Core</b>
+              <p>One Software Brain. Infinite Automation</p>
+              <img
+                src="../../public/images/arm-transparent-top.png"
+                alt="robot"
+                className="second-arm"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
