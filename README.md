@@ -2,7 +2,7 @@
 
 ### Autonomous, software-defined robotics powered by AI.
 
-Demo: [Nexora](https://itstonywhite.github.io/Nexora)
+Demo: [Nexora](https://itstonywhite.github.io/Nexora/)
 
 ![Template](./preview.png)
 
