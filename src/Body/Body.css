@@ -16,3 +16,48 @@
 .robotic-arm-img img {
   max-width: 550px;
 }
+
+.two-boxes {
+  position: relative;
+  margin-top: -280px;
+}
+
+.robotic-arm-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 20px 50px;
+  padding-top: 25px;
+  border-radius: 35px;
+  background-color: #ede8e4;
+  left: 50px;
+}
+
+.robotic-arm-box img {
+  max-width: 150px;
+}
+
+.autonomous-list {
+  width: 285px;
+  height: 285px;
+  border-radius: 35px;
+  background-color: #fff;
+  position: absolute;
+  left: 340px;
+}
+
+.list-item {
+  display: flex;
+  column-gap: 10px;
+}
+
+.list-item img {
+  width: 35px;
+  height: 35px;
+}
+
+.list-item p,
+.list-item b {
+  font-size: 12px;
+}
