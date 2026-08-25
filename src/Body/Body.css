@@ -1,5 +1,9 @@
-.autonomous-img {
-  margin-top: 40px;
+.body-content {
+  margin-left: 2px;
+  margin-right: -2px;
+  padding-top: 40px;
+  border-left: 1px solid #bfbdbc60;
+  border-right: 1px solid #bfbdbc60;
 }
 
 .autonomous-img img {

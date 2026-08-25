@@ -7,8 +7,8 @@ function Body() {
 
   return (
     <>
-      <div className="body-content">
-        <div className="container">
+      <div className="container">
+        <div className="body-content">
           <div className="autonomous-img">
             <img src={autonomousImgSrc} alt="Autonomous" />
           </div>

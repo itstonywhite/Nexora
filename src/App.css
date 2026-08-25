@@ -24,6 +24,11 @@
   src: url("../public/fonts/Inter.ttf") format("ttf");
 }
 
+html {
+  /* Reserves space for the scrollbar even when it's not there */
+  scrollbar-gutter: stable;
+}
+
 body {
   background-color: #f3eeea;
   font-family: "Inter";
