@@ -1,12 +1,32 @@
+header {
+  width: 100vw;
+  border: 1px solid #bfbdbc60;
+
+  background-image: repeating-linear-gradient(
+    45deg,
+    #bfbdbc60 0px,
+    #bfbdbc60 1px,
+    transparent 1px,
+    transparent 5px
+  );
+
+  z-index: 1;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 25px 35px;
+  border: 1px solid #bfbdbc60;
+  border-top: none;
+  border-bottom: none;
+  background-color: #f3eeea;
 }
 
 .header-menus {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
@@ -16,7 +36,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  border: 1px solid #e4dfdb;
+  border: 1px solid #bfbdbc;
   border-radius: 100px;
   padding: 10px;
   padding-right: 15px;
@@ -37,31 +57,97 @@
   padding-left: 0;
 }
 
+.header-contact-us-lang {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .language-selection select {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-
-  border: 1px solid #e4dfdb;
-  border-radius: 8px;
-  padding: 10px;
-  padding-right: 40px; /* room for the arrow */
-
-  background-color: transparent;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23555' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 16px center;
-  background-size: 12px;
-
   text-align: center;
-  text-align-last: center; /* centers selected value in Chrome/Firefox */
+  text-align-last: center;
+  background-color: transparent;
+}
+
+/* Opt in to customizable select — required on BOTH the select and its picker */
+.language-selection select,
+.language-selection select::picker(select) {
+  appearance: base-select;
+}
+
+/* --- The closed select box (same as before) --- */
+.language-selection select {
+  border: 1px solid #bfbdbc;
+  border-radius: 8px;
+  padding: 10px 15px;
+  background-color: transparent;
   font-size: 14px;
   color: #333;
   cursor: pointer;
   outline: none;
 }
 
-/* Removes default arrow in old IE/Edge */
+/* Custom dropdown arrow icon */
+.language-selection select::picker-icon {
+  color: #555;
+  transition: rotate 0.2s ease;
+}
+
+.language-selection select:open::picker-icon {
+  rotate: 180deg;
+}
+
+/* --- The dropdown popup (the box that appears on click) --- */
+.language-selection select::picker(select) {
+  border: 1px solid #e4dfdb;
+  border-radius: 8px;
+  padding: 6px;
+  margin-top: 6px;
+  background-color: #faf7f2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Each option inside the dropdown --- */
+.language-selection select option {
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: #333;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+/* Hover state */
+.language-selection select option:hover {
+  background-color: #f3eeea;
+}
+
+/* Currently selected option */
+.language-selection select option:checked {
+  background-color: #f3eeea;
+  font-weight: 500;
+}
+
 .language-selection select::-ms-expand {
   display: none;
+}
+
+.contact-us-btn {
+  background-color: #313131;
+  padding: 10px 15px;
+  border-radius: 100px;
+}
+
+.contact-us-btn a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.contact-us-btn svg {
+  width: 20px;
+  stroke: white;
 }
