@@ -27,6 +27,7 @@
 body {
   background-color: #f3eeea;
   font-family: "Inter";
+  overflow-x: hidden;
 }
 
 .container {
