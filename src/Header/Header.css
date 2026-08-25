@@ -9,8 +9,6 @@ header {
     transparent 1px,
     transparent 5px
   );
-
-  z-index: 1;
 }
 
 .header {
