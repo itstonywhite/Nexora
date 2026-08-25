@@ -27,7 +27,8 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  padding: 20px 50px;
+  width: 270px;
+  height: 260px;
   padding-top: 25px;
   border-radius: 35px;
   background-color: #ede8e4;
@@ -39,17 +40,29 @@
 }
 
 .autonomous-list {
-  width: 285px;
-  height: 285px;
+  width: 270px;
+  height: 260px;
   border-radius: 35px;
   background-color: #fff;
   position: absolute;
   left: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .list-item {
   display: flex;
+  justify-content: center;
   column-gap: 10px;
+  padding: 5px 25px;
+  padding-right: 0;
+  max-width: 240px;
+}
+
+.list-item:not(:first-child) {
+  border-top: 1px solid #bfbdbc60;
 }
 
 .list-item img {
@@ -60,4 +73,8 @@
 .list-item p,
 .list-item b {
   font-size: 12px;
+}
+
+.list-item p {
+  color: rgba(0, 0, 0, 0.695);
 }

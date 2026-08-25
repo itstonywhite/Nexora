@@ -22,29 +22,37 @@ function Body() {
             <div className="autonomous-list">
               <div className="list-item">
                 <img src="../../public/images/camera-icon.png" alt="Nexora" />
-                <b>Perception</b>
-                <p>
-                  Advanced sensors and computer vision for real-world
-                  understanding.
-                </p>
+                <div className="list-items">
+                  <b>Perception</b>
+                  <p>
+                    Advanced sensors and computer vision for real-world
+                    understanding.
+                  </p>
+                </div>
               </div>
               <div className="list-item">
                 <img src="../../public/images/brain-emoji.png" alt="Nexora" />
-                <b>Decision</b>
-                <p>AI models that reason, plan and adapt in real-time.</p>
+                <div className="list-items">
+                  <b>Decision</b>
+                  <p>AI models that reason, plan and adapt in real-time.</p>
+                </div>
               </div>
               <div className="list-item">
                 <img
                   src="../../public/images/direction-icon.png"
                   alt="Nexora"
                 />
-                <b>Control</b>
-                <p>Precise motion control for the physical world.</p>
+                <div className="list-items">
+                  <b>Control</b>
+                  <p>Precise motion control for the physical world.</p>
+                </div>
               </div>
               <div className="list-item">
                 <img src="../../public/images/fast-icon.png" alt="Nexora" />
-                <b>Action</b>
-                <p>Reliable execution that delivers results.</p>
+                <div className="list-items">
+                  <b>Action</b>
+                  <p>Reliable execution that delivers results.</p>
+                </div>
               </div>
             </div>
           </div>
