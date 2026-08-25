@@ -68,6 +68,29 @@ function Body() {
               />
             </div>
           </div>
+          <div className="texts">
+            <h1>Software-Defined Robotics Powered By AI.</h1>
+            <p>
+              NEXORA builds intelligent robots that perceives, decide and act in
+              the real world to drive industrial progress
+            </p>
+            <a href="#">
+              Explore Solutions
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.7"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </>

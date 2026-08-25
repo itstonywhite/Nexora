@@ -119,3 +119,39 @@
   right: -300px;
   top: -370px;
 }
+
+.texts {
+  margin-top: 280px;
+  margin-left: 50px;
+  max-width: 500px;
+}
+
+.texts h1 {
+  font-size: 49px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.81);
+}
+
+.texts p {
+  color: rgba(0, 0, 0, 0.695);
+  max-width: 450px;
+}
+
+.texts a {
+  color: white;
+  background-color: #303131;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  max-width: max-content;
+  padding: 15px 20px;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+.texts a svg {
+  width: 20px;
+  stroke: white;
+}
