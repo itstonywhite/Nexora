@@ -8,7 +8,7 @@ function Header() {
           <div className="header">
             <div className="header-menus">
               <div className="logo">
-                <img src="../../public/images/favicon.png" alt="Nexora" />
+                <img src="./images/favicon.png" alt="Nexora" />
                 NEXORA
               </div>
               <div className="menus">

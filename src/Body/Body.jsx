@@ -1,10 +1,9 @@
 import "./Body.css";
 
 function Body() {
-  const autonomousImgSrc = "${import.meta.env.BASE_URL}images/Autonomous.png";
-  const roboticArmImgSrc =
-    "${import.meta.env.BASE_URL}images/arm-transparent.png";
-  const roboticArmBoxImgSrc = "$/Nexora/images/robotic-arm-box.png";
+  const autonomousImgSrc = "./images/Autonomous.png";
+  const roboticArmImgSrc = "./images/arm-transparent.png";
+  const roboticArmBoxImgSrc = `./images/robotic-arm-box.png`;
 
   return (
     <>
@@ -22,7 +21,7 @@ function Body() {
             </div>
             <div className="autonomous-list">
               <div className="list-item">
-                <img src="../../public/images/camera-icon.png" alt="Nexora" />
+                <img src="./images/camera-icon.png" alt="Nexora" />
                 <div className="list-items">
                   <b>Perception</b>
                   <p>
@@ -32,24 +31,21 @@ function Body() {
                 </div>
               </div>
               <div className="list-item">
-                <img src="../../public/images/brain-emoji.png" alt="Nexora" />
+                <img src="./images/brain-emoji.png" alt="Nexora" />
                 <div className="list-items">
                   <b>Decision</b>
                   <p>AI models that reason, plan and adapt in real-time.</p>
                 </div>
               </div>
               <div className="list-item">
-                <img
-                  src="../../public/images/direction-icon.png"
-                  alt="Nexora"
-                />
+                <img src="./images/direction-icon.png" alt="Nexora" />
                 <div className="list-items">
                   <b>Control</b>
                   <p>Precise motion control for the physical world.</p>
                 </div>
               </div>
               <div className="list-item">
-                <img src="../../public/images/fast-icon.png" alt="Nexora" />
+                <img src="./images/fast-icon.png" alt="Nexora" />
                 <div className="list-items">
                   <b>Action</b>
                   <p>Reliable execution that delivers results.</p>
@@ -59,11 +55,11 @@ function Body() {
           </div>
           <div className="floating-box-container">
             <div className="floating-box">
-              <img src="../../public/images/favicon.png" alt="Nexora" />
+              <img src="./images/favicon.png" alt="Nexora" />
               <b>Intelligent Robotics Core</b>
               <p>One Software Brain. Infinite Automation</p>
               <img
-                src="../../public/images/arm-transparent-top.png"
+                src="./images/arm-transparent-top.png"
                 alt="robot"
                 className="second-arm"
               />
