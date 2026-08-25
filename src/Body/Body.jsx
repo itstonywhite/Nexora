@@ -4,8 +4,7 @@ function Body() {
   const autonomousImgSrc = "${import.meta.env.BASE_URL}images/Autonomous.png";
   const roboticArmImgSrc =
     "${import.meta.env.BASE_URL}images/arm-transparent.png";
-  const roboticArmBoxImgSrc =
-    "${import.meta.env.BASE_URL}images/robotic-arm-box.png";
+  const roboticArmBoxImgSrc = "$/Nexora/images/robotic-arm-box.png";
 
   return (
     <>
