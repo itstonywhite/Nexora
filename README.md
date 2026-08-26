@@ -51,6 +51,6 @@ http://localhost:5000/Nexora/
 
 ---
 
-_This is my very first project with React JS after 2 days of learning :)_
+_This is my very first project with React JS after just 2 days of learning :)_
 
 \- [Tony White ✍️](https://github.com/itstonywhite)
