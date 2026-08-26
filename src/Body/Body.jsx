@@ -1,10 +1,16 @@
 import "./Body.css";
+import autonomousImgSrc from "../assets/Autonomous.png";
+import roboticArmImgSrc from "../assets/arm-transparent.png";
+import roboticArmBoxImgSrc from "../assets/robotic-arm-box.png";
+import armTransparent from "../assets/arm-transparent-top.png";
+
+import logo from "../assets/favicon.png";
+import cameraIcon from "../assets/camera-icon.png";
+import brainIcon from "../assets/brain-emoji.png";
+import directionIcon from "../assets/direction-icon.png";
+import fastIcon from "../assets/fast-icon.png";
 
 function Body() {
-  const autonomousImgSrc = "./images/Autonomous.png";
-  const roboticArmImgSrc = "./images/arm-transparent.png";
-  const roboticArmBoxImgSrc = `./images/robotic-arm-box.png`;
-
   return (
     <>
       <div className="container">
@@ -21,7 +27,7 @@ function Body() {
             </div>
             <div className="autonomous-list">
               <div className="list-item">
-                <img src="./images/camera-icon.png" alt="Nexora" />
+                <img src={cameraIcon} alt="Nexora" />
                 <div className="list-items">
                   <b>Perception</b>
                   <p>
@@ -31,21 +37,21 @@ function Body() {
                 </div>
               </div>
               <div className="list-item">
-                <img src="./images/brain-emoji.png" alt="Nexora" />
+                <img src={brainIcon} alt="Nexora" />
                 <div className="list-items">
                   <b>Decision</b>
                   <p>AI models that reason, plan and adapt in real-time.</p>
                 </div>
               </div>
               <div className="list-item">
-                <img src="./images/direction-icon.png" alt="Nexora" />
+                <img src={directionIcon} alt="Nexora" />
                 <div className="list-items">
                   <b>Control</b>
                   <p>Precise motion control for the physical world.</p>
                 </div>
               </div>
               <div className="list-item">
-                <img src="./images/fast-icon.png" alt="Nexora" />
+                <img src={fastIcon} alt="Nexora" />
                 <div className="list-items">
                   <b>Action</b>
                   <p>Reliable execution that delivers results.</p>
@@ -55,21 +61,17 @@ function Body() {
           </div>
           <div className="floating-box-container">
             <div className="floating-box">
-              <img src="./images/favicon.png" alt="Nexora" />
+              <img src={logo} alt="Nexora" />
               <b>Intelligent Robotics Core</b>
               <p>One Software Brain. Infinite Automation</p>
-              <img
-                src="./images/arm-transparent-top.png"
-                alt="robot"
-                className="second-arm"
-              />
+              <img src={armTransparent} alt="robot" className="second-arm" />
             </div>
           </div>
           <div className="texts">
             <h1>Software-Defined Robotics Powered By AI.</h1>
             <p>
               NEXORA builds intelligent robots that perceives, decide and act in
-              the real world to drive industrial progress
+              the real world to drive industrial progress.
             </p>
             <a href="#">
               Explore Solutions

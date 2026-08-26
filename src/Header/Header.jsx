@@ -1,4 +1,5 @@
 import "./Header.css";
+import logo from "../assets/favicon.png";
 
 function Header() {
   return (
@@ -8,7 +9,7 @@ function Header() {
           <div className="header">
             <div className="header-menus">
               <div className="logo">
-                <img src="./images/favicon.png" alt="Nexora" />
+                <img src={logo} alt="Nexora" />
                 NEXORA
               </div>
               <div className="menus">
