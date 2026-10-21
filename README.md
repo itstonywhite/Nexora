@@ -33,7 +33,7 @@ git clone https://github.com/itstonywhite/Nexora.git
 cd Nexora
 ```
 
-3. Install dependencies:
+3. Install dependencies (Not needed!):
 
 ```bash
 npm i
