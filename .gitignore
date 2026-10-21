@@ -36,3 +36,5 @@ bower_components
 psd
 thumb
 sketch
+
+external_packages_dir/** linguist-vendored=false
