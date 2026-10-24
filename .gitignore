@@ -29,6 +29,8 @@ logs
 **/*.backup.*
 **/*.back.*
 
+node_modules
+
 bower_components
 
 *.sublime*
@@ -36,5 +38,3 @@ bower_components
 psd
 thumb
 sketch
-
-external_packages_dir/** linguist-vendored=false
